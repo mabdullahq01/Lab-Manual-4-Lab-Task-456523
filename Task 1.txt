@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	double x, sum;
+	sum=0;
+	int c;
+	for (c=1; c<11; c++){
+		cout<<"Please Input a Value of "<<c<<" number: ";
+		cin>>x;
+		sum=x+sum;
+	}
+	cout<<"Sum is: "<<sum;
+}

@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int fac, num, res, count;
+	cout<<"Enter Number for Factorial: ";
+	cin>>num;
+	fac=num;
+	res=num+1;
+	count=num;
+	cout<<"Factorial of "<<num<<" is: "<<num;
+//	for(count=1; count<res; count++){
+//		fac=fac*count;	
+//		cout<<" x "<<count;
+//	}
+	while(count<res&& count>1){
+		count-=1;
+		fac=fac*count;
+		cout<<" x "<<count;
+	};
+	cout<<" = "<<fac;
+}

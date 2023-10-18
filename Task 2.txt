@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int count, num, res;
+	cout<<"Please Input Number Which You Want Table for: ";
+	cin>>num;
+	for(count=1; count<11; count++){
+		res=num*count;
+		cout<<num<<" * "<<count<<" = "<<res<<endl;		
+	}
+}
