@@ -3,10 +3,12 @@ using namespace std;
 
 int main(){
 		int num1, sum, num2, count;
-	num1=0;
-	num2=1;
+	cout<<"Enter Number 1: ";
+	cin>>num1;
+	cout<<"Enter Number 2: ";
+	cin>>num2;
 	cout<<num1<<", "<<num2<<", ";
-	for(count=0; count<10; count++){
+	for(count=0; count<6; count++){
 	sum=num1+num2;
 	num1=num2;
 	num2=sum;
